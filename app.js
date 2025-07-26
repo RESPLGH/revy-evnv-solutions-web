@@ -50,6 +50,11 @@ function bhaviklinkedin() {
   window.open(linkToOpen, "_blank");
 }
 
+function drDhamijaLinkedin() {
+  var linkToOpen = "https://www.linkedin.com/in/parveen-dhamija-89679733/";
+  window.open(linkToOpen, "_blank");
+}
+
 function gocontact() {
   var linkToOpen = "contact.html";
   window.location.href(linkToOpen);
