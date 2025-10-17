@@ -1004,3 +1004,10 @@ td {
   font-size: 1.2em;
   font-weight: 600;
 }
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(245px, 1fr)); /* match your card width */
+  gap: 20px; /* adjust gap as you like */
+  justify-items: center; /* centers each card in its column */
+  padding: 1rem; /* optional padding around the container */
+}
