@@ -879,9 +879,10 @@ footer {
 }
 
 .cardp1 {
-  display: block;
+  display: flex;              /* ✅ change this */
+  flex-direction: column;     /* vertical layout */
   position: relative;
-  max-width: 262px;
+  max-width: 300px;
   background-color: #c7dee2;
   border-radius: 4px;
   padding: 32px 24px;
@@ -889,9 +890,13 @@ footer {
   text-decoration: none;
   z-index: 0;
   overflow: hidden;
-  height: 250px;
+  height: 240px;
 }
-
+.date {
+  margin-top: auto;     /* 👈 THIS is the magic */
+  padding-top: 8px;     /* small spacing */
+  font-weight: 600;
+}
 .cardp1:before {
   content: "";
   position: absolute;

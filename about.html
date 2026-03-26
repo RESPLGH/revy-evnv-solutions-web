@@ -1,425 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>REVY Environmental Solutions Pvt. Ltd.</title>
-    <link rel="stylesheet" href="bootstrap.css" />
-    <link rel="stylesheet" href="style.css" />
 
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./assets/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./assets/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
-    <script defer src="hid.js"></script>
-  </head>
-  <body class="p-0 m-0 border-0 bd-example">
-<div class="icon-bar">
-      <a
-        target="_blank"
-        href="https://www.facebook.com/REVYEnvironment"
-        style="border-radius: 0 0.25cm 0 0"
-        class="facebook"
-        ><svg style="height: 0.55cm;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg></a>
-      <a
-        target="_blank"
-        href="https://twitter.com/REVYEnvironment"
-        class="twitter"
-        ><svg style="height: 0.55cm;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#f6f7f8" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></a>
-      <a
-        target="_blank"
-        href="https://www.instagram.com/revy_espl/"
-        class="instagram"
-        ><svg style="height: 0.55cm;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#f9fafb" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
-      <a
-        target="_blank"
-        href="https://www.linkedin.com/company/revy-environmental-solutions-pvt-ltd/"
-        class="linkedin"
-        ><svg style="height: 0.55cm;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#f7f7f8" d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/></svg></a>
-      <a
-        target="_blank"
-        href="https://www.youtube.com/channel/UCA8BgqvdfUuisECWkwlcr6A"
-        style="border-radius: 0 0 0.25cm 0"
-        class="youtube"
-        ><svg style="width: 0.6cm;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#f7f7f7" d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/></svg></a>
-    </div>
-    <a href="#"><button id="myBtn" title="Go to top">Top</button></a>
-    <!-- Example Code -->
-    <header>
-      <nav
-        id="revynav"
-        class="navbar navbar-expand-lg bg-white fixed-top"
-      >
-        <div class="container-fluid">
-          <a class="navbar-brand navv" href="./index.html">
-            <img class="logo-company" src="./assets/revy-full-logo.webp" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                REVY Environmental Solutions
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    id="nav-home"
-                    href="index.html"
-                    >Home</a
-                  >
-                </li>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>REVY Environmental Solutions Pvt. Ltd.</title>
+  <link rel="stylesheet" href="bootstrap.css" />
+  <link rel="stylesheet" href="style.css" />
 
-                <li class="nav-item">
-                  <a
-                    style="text-decoration: underline" class="nav-link" id="nav-about" href="about.html">About</a>
-                </li>
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+  <script defer src="hid.js"></script>
+</head>
 
-                <li class="nav-item">
-                  <a
-                    
-                    class="nav-link"
-                    id="nav-services"
-                    href="services.html"
-                    >Products & Services</a
-                  >
-                </li>
+<body class="p-0 m-0 border-0 bd-example">
+  <div class="icon-bar">
+    <a target="_blank" href="https://www.facebook.com/REVYEnvironment" style="border-radius: 0 0.25cm 0 0"
+      class="facebook"><svg style="height: 0.55cm;" xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+        <path fill="#ffffff"
+          d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
+      </svg></a>
+    <a target="_blank" href="https://twitter.com/REVYEnvironment" class="twitter"><svg style="height: 0.55cm;"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+        <path fill="#f6f7f8"
+          d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+      </svg></a>
+    <a target="_blank" href="https://www.instagram.com/revy_espl/" class="instagram"><svg style="height: 0.55cm;"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+        <path fill="#f9fafb"
+          d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+      </svg></a>
+    <a target="_blank" href="https://www.linkedin.com/company/revy-environmental-solutions-pvt-ltd/"
+      class="linkedin"><svg style="height: 0.55cm;" xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+        <path fill="#f7f7f8"
+          d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+      </svg></a>
+    <a target="_blank" href="https://www.youtube.com/channel/UCA8BgqvdfUuisECWkwlcr6A"
+      style="border-radius: 0 0 0.25cm 0" class="youtube"><svg style="width: 0.6cm;" xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+        <path fill="#f7f7f7"
+          d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z" />
+      </svg></a>
+  </div>
+  <a href="#"><button id="myBtn" title="Go to top">Top</button></a>
+  <!-- Example Code -->
+  <header>
+    <nav id="revynav" class="navbar navbar-expand-lg bg-white fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand navv" href="./index.html">
+          <img class="logo-company" src="./assets/revy-full-logo.webp" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              REVY Environmental Solutions
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" id="nav-home" href="index.html">Home</a>
+              </li>
 
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    id="nav-services"
-                    href="clients.html"
-                    >Clients</a
-                  >
-                </li>
+              <li class="nav-item">
+                <a style="text-decoration: underline" class="nav-link" id="nav-about" href="about.html">About</a>
+              </li>
 
-                <li class="nav-item">
-                  <a class="nav-link" id="nav-gallery" href="gallery.html"
-                    >Gallery</a
-                  >
-                </li>
+              <li class="nav-item">
+                <a class="nav-link" id="nav-services" href="services.html">Products & Services</a>
+              </li>
 
-                <li class="nav-item">
-                  <a class="nav-link" id="nav-contactus" href="contact.html"
-                    >Contact Us</a
-                  >
-                </li>
-              </ul>
+              <li class="nav-item">
+                <a class="nav-link" id="nav-services" href="clients.html">Clients</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" id="nav-gallery" href="gallery.html">Gallery</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" id="nav-contactus" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <hr style="color: #66bc46" />
+  </header>
+
+  <main>
+    <section class="bubble">
+    </section>
+    <article id="about-article" style="margin-left: 9vw; margin-right: 9vw">
+
+      <h2 style="margin-top:0;padding-top:1cm;" class="article-sub-title">About REVY</h2>
+      <div class="misvis">
+        <div class="card redcard col-lg-5 col-md-12 col-sm-12" style="
+              margin: 1cm;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            ">
+          <div class="card-body hiddenv">
+            <div class="cardq-info">
+              <div class="misvisicon">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path fill="#65bc46"
+                    d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+                </svg>
+              </div>
+              <p class="textq-title">Our Vision</p>
+              <p class="textq-body">To Make Mother Earth Cleaner and Greener</p>
             </div>
           </div>
         </div>
-      </nav>
-      <hr style="color: #66bc46" />
-    </header>
-
-    <main>
-      <section class="bubble">
-      </section>
-      <article id="about-article" style="margin-left: 9vw; margin-right: 9vw">
-        
-        <h2 style="margin-top:0;padding-top:1cm;" class="article-sub-title">About REVY</h2>
-        <div class="misvis">
-          <div
-            class="card redcard col-lg-5 col-md-12 col-sm-12"
-            style="
+        <div class="card redcard col-lg-5 col-md-12 col-sm-12" style="
               margin: 1cm;
               display: flex;
               align-items: center;
               justify-content: center;
-            "
-          >
-            <div class="card-body hiddenv">
-              <div class="cardq-info">
+            ">
+          <div class="card-body hiddenv">
+            <div class="cardq-info">
               <div class="misvisicon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#65bc46" d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z"/></svg>
-              </div><p class="textq-title">Our Vision</p>
-              <p class="textq-body">To Make Mother Earth Cleaner and Greener</p>
-            </div> 
-            </div>
-          </div>
-        <div
-            class="card redcard col-lg-5 col-md-12 col-sm-12"
-            style="
-              margin: 1cm;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-            "
-          >
-            <div class="card-body hiddenv">
-              <div class="cardq-info">
-              <div class="misvisicon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="-55 -40 612 612"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#65bc46" d="M448 256A192 192 0 1 0 64 256a192 192 0 1 0 384 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 80a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm0-224a144 144 0 1 1 0 288 144 144 0 1 1 0-288zM224 256a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"/></svg>
-              </div><p class="textq-title">Our Mission</p>
-              <p class="textq-body">To Provide 'Scientifically proven' products and services that help waste treatment utilities 'recover value from organic waste' more efficiently and prevent environmental degradation.</p>
-            </div>  
-            </div>
-          </div>
-          
-          </div>
-        <p style="text-align: justify;">
-          <b>REVY</b> empowers biogas and waste water treatment companies by significantly reducing operational costs and treatment times, while simultaneously lowering emissions and recovering valuable energy, making a substantial positive impact on both treatment efficiency and environmental sustainability.
-          <br><br>
-          <b>REVY</b> is providing in situ solutions in waste management to several industries using its optimized Waste Management and Waste Water Treatment Technology (WWTT). REVY develops “Designer Bio-culture” using IP protected combinations of bacteria/other microorganisms in the form of 'Anaerobic Granulated Sludge', and 'Biomass Growth Enhancement Formulations (BGEF)' that helps in treating wastes from a number of sectors including municipal wastes, sewage and effluents from industries such as Dairy, Distilleries, Pulp and paper, Slaughterhouses, Sugar, Food processing etc converting these waste into energy source such as Bio-methane and Bio-Hydrogen.
-          <br><br>Our Seed Biomass supports faster operation of aerobic/anaerobic reactor fixing problem in-situ and finding solutions for ailing units in sector agnostics manner. 
-          <br><br>Our Granulated Sludge can withstand higher loading rate with a capacity to reduce higher COD/BOD load while giving better biogas yield in comparison to flocculent systems. 
-          <br><br>Our BGEFs  ensure nutritional requirement of the biomass to remain healthy and active through continuous enhancement of MLVSS.
-
-        </p>
-        <h2 class="article-sub-title">Management Team</h2>
-
-        <section class="team-section row hidden">
-          <div class="column1 col-lg-4 col-sm-12">
-            <img src="/assets/team/DrVanitaPrasad.webp" alt="Profile Picture" />
-                        <div class="designation">Dr. Vanita Prasad</div> 
-            <div class="designation2">Founder and CTO</div> 
-            <div class="profile-links">
-              <button class="linbutton" onclick="vanitalinkedin()">
-                <svg
-                  viewBox="0 0 16 16"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                >
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                  <g
-                    id="SVGRepo_tracerCarrier"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  ></g>
-                  <g id="SVGRepo_iconCarrier">
-                    <path
-                      fill="#ffffff"
-                      d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z"
-                    ></path>
-                  </g>
+                <svg xmlns="http://www.w3.org/2000/svg"
+                  viewBox="-55 -40 612 612"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path fill="#65bc46"
+                    d="M448 256A192 192 0 1 0 64 256a192 192 0 1 0 384 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 80a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm0-224a144 144 0 1 1 0 288 144 144 0 1 1 0-288zM224 256a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
                 </svg>
-              </button>
-
-              <a style="display:grid;place-items:center;" target="_blank" href="mailto:vanita.prasad@revy.co.in"
-                ><button class="" style="border:none;background-color:white;">
-                 <span class="contact-span"><svg style="width:0.5cm;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg>
-                <span class="dotted-border-span">vanita.prasad@revy.co.in</span></span></button
-              ></a>
-              <a style="display:grid;place-items:center;" target="_blank" href="tel:+918156009652"
-                ><button class="" style="border:none;background-color:white;">
-                <span class="contact-span"><svg style="width: 0.4cm;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg> <span class="dotted-border-span">+91 8156009652</span></span></button
-              ></a>
+              </div>
+              <p class="textq-title">Our Mission</p>
+              <p class="textq-body">To Provide 'Scientifically proven' products and services that help waste treatment
+                utilities 'recover value from organic waste' more efficiently and prevent environmental degradation.</p>
             </div>
-
           </div>
-          <div class="column2 col-lg-8 col-sm-12">
-            <p>
-              <span class="span-bold">Dr. Vanita Prasad</span> is an
-              Environmental Biotechnologist with more than 30 yrs. of experience
-              in related field. Having graduated in Science from University of
-              Delhi, she completed her Master's and Ph.D. in Biotechnology. Dr.
-              Prasad has a long association with the industry as Consultant
-              Scientist while heading R&D functions of various waste management
-              companies. She hold patents for specific innovation in the field
-              of Waste management and Renewable energy.
-            </p>
-          </div>
-        </section>
+        </div>
 
-        <section class="team-section row hidden">
-          <div class="column1 col-lg-4 col-sm-12">
-            <img
-              src="/assets/team/MrRajneeshPrasad.webp"
-              alt="Profile Picture"
-            />
-                        <div class="designation">Mr. Rajneesh Prasad</div> 
-            <div class="designation2">Director and CEO</div> 
-            <div class="profile-links">
+      </div>
+      <p style="text-align: justify;">
+        <b>REVY</b> empowers biogas and waste water treatment companies by significantly reducing operational costs and
+        treatment times, while simultaneously lowering emissions and recovering valuable energy, making a substantial
+        positive impact on both treatment efficiency and environmental sustainability.
+        <br><br>
+        <b>REVY</b> is providing in situ solutions in waste management to several industries using its optimized Waste
+        Management and Waste Water Treatment Technology (WWTT). REVY develops “Designer Bio-culture” using IP protected
+        combinations of bacteria/other microorganisms in the form of 'Anaerobic Granulated Sludge', and 'Biomass Growth
+        Enhancement Formulations (BGEF)' that helps in treating wastes from a number of sectors including municipal
+        wastes, sewage and effluents from industries such as Dairy, Distilleries, Pulp and paper, Slaughterhouses,
+        Sugar, Food processing etc converting these waste into energy source such as Bio-methane and Bio-Hydrogen.
+        <br><br>Our Seed Biomass supports faster operation of aerobic/anaerobic reactor fixing problem in-situ and
+        finding solutions for ailing units in sector agnostics manner.
+        <br><br>Our Granulated Sludge can withstand higher loading rate with a capacity to reduce higher COD/BOD load
+        while giving better biogas yield in comparison to flocculent systems.
+        <br><br>Our BGEFs ensure nutritional requirement of the biomass to remain healthy and active through continuous
+        enhancement of MLVSS.
+
+      </p>
+      <h2 class="article-sub-title">Management Team</h2>
+
+      <section class="team-section row hidden">
+        <div class="column1 col-lg-4 col-sm-12">
+          <img src="/assets/team/DrVanitaPrasad.webp" alt="Profile Picture" />
+          <div class="designation">Dr. Vanita Prasad</div>
+          <div class="designation2">Founder and CTO</div>
+          <div class="profile-links">
+            <button class="linbutton" onclick="vanitalinkedin()">
+              <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path fill="#ffffff"
+                    d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z">
+                  </path>
+                </g>
+              </svg>
+            </button>
+
+            <a style="display:grid;place-items:center;" target="_blank" href="mailto:vanita.prasad@revy.co.in"><button
+                class="" style="border:none;background-color:white;">
+                <span class="contact-span"><svg style="width:0.5cm;" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                      d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
+                  </svg>
+                  <span class="dotted-border-span">vanita.prasad@revy.co.in</span></span></button></a>
+            <a style="display:grid;place-items:center;" target="_blank" href="tel:+918156009652"><button class=""
+                style="border:none;background-color:white;">
+                <span class="contact-span"><svg style="width: 0.4cm;" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                      d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+                  </svg> <span class="dotted-border-span">+91 8156009652</span></span></button></a>
+          </div>
+
+        </div>
+        <div class="column2 col-lg-8 col-sm-12">
+          <p>
+            <span class="span-bold">Dr. Vanita Prasad</span> is an
+            Environmental Biotechnologist with more than 30 yrs. of experience
+            in related field. Having graduated in Science from University of
+            Delhi, she completed her Master's and Ph.D. in Biotechnology. Dr.
+            Prasad has a long association with the industry as Consultant
+            Scientist while heading R&D functions of various waste management
+            companies. She hold patents for specific innovation in the field
+            of Waste management and Renewable energy.
+          </p>
+        </div>
+      </section>
+
+      <section class="team-section row hidden">
+        <div class="column1 col-lg-4 col-sm-12">
+          <img src="/assets/team/MrRajneeshPrasad.webp" alt="Profile Picture" />
+          <div class="designation">Mr. Rajneesh Prasad</div>
+          <div class="designation2">Director and CEO</div>
+          <div class="profile-links">
             <button class="linbutton" onclick="rajneeshlinkedin()">
-              <svg
-                viewBox="0 0 16 16"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-              >
+              <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                 <g id="SVGRepo_iconCarrier">
-                  <path
-                    fill="#ffffff"
-                    d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z"
-                  ></path>
+                  <path fill="#ffffff"
+                    d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z">
+                  </path>
                 </g>
               </svg>
-              
+
             </button>
-            <a style="display:grid;place-items:center;" target="_blank" href="mailto:rajneesh.prasad@revy.co.in"
-              ><button class="" style="border:none;background-color:white;">
-                <span style="text-decoration: none;" class="contact-span"><svg style="width:0.5cm;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg> <span class="dotted-border-span">rajneesh.prasad@revy.co.in</span></span></button
-              ></a>
-            <a style="display:grid;place-items:center;" target="_blank" href="tel:+919824519652"
-              ><button class="" style="border:none;background-color:white;">
-                <span class="contact-span"><svg style="width: 0.4cm;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg> <span class="dotted-border-span">+91 9824519652</span></span></button
-              ></a>
-            </div>
-
+            <a style="display:grid;place-items:center;" target="_blank" href="mailto:rajneesh.prasad@revy.co.in"><button
+                class="" style="border:none;background-color:white;">
+                <span style="text-decoration: none;" class="contact-span"><svg style="width:0.5cm;"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                      d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
+                  </svg> <span class="dotted-border-span">rajneesh.prasad@revy.co.in</span></span></button></a>
+            <a style="display:grid;place-items:center;" target="_blank" href="tel:+919824519652"><button class=""
+                style="border:none;background-color:white;">
+                <span class="contact-span"><svg style="width: 0.4cm;" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                      d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+                  </svg> <span class="dotted-border-span">+91 9824519652</span></span></button></a>
           </div>
-          <div class="column2 col-lg-8 col-sm-12">
-            <p>
-              <span class="span-bold">Mr. Rajneesh Prasad</span> has a
-              postgraduate Degree in Biochemistry from Indore and MBA from
-              Murdoch University, Perth Australia. He comes from the field of
-              Medical Diagnostics and has over 30 years of experience of
-              managing and discharging various responsibilities in MNCs. Adding
-              value to REVY, he brings along expertise in Product Launches &
-              Portfolio Management, Market development, Channel management,
-              Strategic Planning as well as has an enormous working experience
-              in diverse cultures and economies like India, South Africa,
-              Singapore while he has travelled extensively in Asia Pacific
-              region and across the Globe.
-            </p>
-          </div>
-        </section>
 
-        <section class="team-section row hidden">
-          <div class="column1 col-lg-4 col-sm-12">
-            <img
-              src="/assets/team/MrBhavikKathrani.webp"
-              alt="Profile Picture"
-            />
-                        <div class="designation">Mr. Bhavik Kathrani</div> 
-           <div class="designation2">Director and CFO</div> 
-            <div class="profile-links">
+        </div>
+        <div class="column2 col-lg-8 col-sm-12">
+          <p>
+            <span class="span-bold">Mr. Rajneesh Prasad</span> has a
+            postgraduate Degree in Biochemistry from Indore and MBA from
+            Murdoch University, Perth Australia. He comes from the field of
+            Medical Diagnostics and has over 30 years of experience of
+            managing and discharging various responsibilities in MNCs. Adding
+            value to REVY, he brings along expertise in Product Launches &
+            Portfolio Management, Market development, Channel management,
+            Strategic Planning as well as has an enormous working experience
+            in diverse cultures and economies like India, South Africa,
+            Singapore while he has travelled extensively in Asia Pacific
+            region and across the Globe.
+          </p>
+        </div>
+      </section>
+
+      <section class="team-section row hidden">
+        <div class="column1 col-lg-4 col-sm-12">
+          <img src="/assets/team/MrBhavikKathrani.webp" alt="Profile Picture" />
+          <div class="designation">Mr. Bhavik Kathrani</div>
+          <div class="designation2">Director and CFO</div>
+          <div class="profile-links">
             <button class="linbutton" onclick="bhaviklinkedin()">
-              <svg
-                viewBox="0 0 16 16"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-              >
+              <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                 <g id="SVGRepo_iconCarrier">
-                  <path
-                    fill="#ffffff"
-                    d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z"
-                  ></path>
+                  <path fill="#ffffff"
+                    d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z">
+                  </path>
                 </g>
               </svg>
-              
+
             </button>
-            <a style="display:grid;place-items:center;" target="_blank" href="mailto:bhavik.kathrani@revy.co.in"
-              >
-            <button class="" style="border:none;background-color:white;">
-                <span class="contact-span"> <svg style="width:0.5cm;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg> <span class="dotted-border-span">bhavik.kathrani@revy.co.in</span></span></button
-              ></a>
-            <a style="display:grid;place-items:center;" target="_blank" href="tel:+919825611069"
-              ><button class="" style="border:none;background-color:white;">
-                <span class="contact-span"><svg style="width: 0.4cm;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg> <span class="dotted-border-span">+91 9825611069</span></span></button
-              ></a>
-            </div>
-
+            <a style="display:grid;place-items:center;" target="_blank" href="mailto:bhavik.kathrani@revy.co.in">
+              <button class="" style="border:none;background-color:white;">
+                <span class="contact-span"> <svg style="width:0.5cm;" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                      d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
+                  </svg> <span class="dotted-border-span">bhavik.kathrani@revy.co.in</span></span></button></a>
+            <a style="display:grid;place-items:center;" target="_blank" href="tel:+919825611069"><button class=""
+                style="border:none;background-color:white;">
+                <span class="contact-span"><svg style="width: 0.4cm;" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                      d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+                  </svg> <span class="dotted-border-span">+91 9825611069</span></span></button></a>
           </div>
 
-          <div class="column2 col-lg-8 col-sm-12">
-            <p>
-              <span class="span-bold">Mr. Bhavik Kathrani</span> has more than
-              27 years of experience in Finance in accounting across various
-              industries including Tours & Travel Agency, Freight Forwarding
-              Company, Accounting & Auditing, Taxation, Consolidation, Property
-              Management, Construction, Hospitality, Manufacturing unit etc. Mr.
-              Bhavik brings along his expertise in books of accounts,
-              finalization, audit, taxation, administration, operation, sales &
-              marketing, company reconstruction/merger/demerger, Treasury,
-              Transfer Pricing, Consolidation, Registrar of Company work and
-              fraud investigation for service and manufacture industry along
-              with other managerial capabilities.
-            </p>
-          </div>
-        </section>
-        
-        <h2 class="article-sub-title" style="text-align: center;">Advisor</h2>
-        <section class="team-section row hidden">
-          <div class="column1 col-12">
-            <img
-              src="/assets/team/DrDhamija.webp"
-              alt="Profile Picture"
-            />
-           <div class="designation">Dr. Parveen Dhamija</div> 
-           <div class="designation2">Advisor - Renewable Energy & Sustainability</div> 
-            <div class="profile-links">
+        </div>
+
+        <div class="column2 col-lg-8 col-sm-12">
+          <p>
+            <span class="span-bold">Mr. Bhavik Kathrani</span> has more than
+            27 years of experience in Finance in accounting across various
+            industries including Tours & Travel Agency, Freight Forwarding
+            Company, Accounting & Auditing, Taxation, Consolidation, Property
+            Management, Construction, Hospitality, Manufacturing unit etc. Mr.
+            Bhavik brings along his expertise in books of accounts,
+            finalization, audit, taxation, administration, operation, sales &
+            marketing, company reconstruction/merger/demerger, Treasury,
+            Transfer Pricing, Consolidation, Registrar of Company work and
+            fraud investigation for service and manufacture industry along
+            with other managerial capabilities.
+          </p>
+        </div>
+      </section>
+
+      <h2 class="article-sub-title" style="text-align: center;">Advisor</h2>
+      <section class="team-section row hidden">
+        <div class="column1 col-12">
+          <img src="/assets/team/DrDhamija.webp" alt="Profile Picture" />
+          <div class="designation">Dr. Parveen Dhamija</div>
+          <div class="designation2">Advisor - Renewable Energy & Sustainability</div>
+          <div class="profile-links">
             <button class="linbutton" onclick="drDhamijaLinkedin()">
-              <svg
-                viewBox="0 0 16 16"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-              >
+              <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                 <g id="SVGRepo_iconCarrier">
-                  <path
-                    fill="#ffffff"
-                    d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z"
-                  ></path>
+                  <path fill="#ffffff"
+                    d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z">
+                  </path>
                 </g>
               </svg>
-              
+
             </button>
-            
-            </div>
 
           </div>
 
-          <div class="column2 col-12">
-            <p>
-              <span class="span-bold">Dr. Parveen Dhamija</span> is a renewable energy expert with over 35 years of leadership in policy, technology deployment, and skill development. A PhD from IARI, she has served in key roles at MNRE and Delhi Govt., driving national programs in biogas, clean cooking, solar energy, and waste-to-energy. She has led initiatives for gender inclusion, skill building, and biomass supply chain development. A former Lead Author for the IPCC and member of BIS and ISO committees, Dr. Dhamija continues to contribute to India's clean energy transition through research, advisory, and capacity-building roles.
-            </p>
-          </div>
-        </section>
+        </div>
 
-        <h2 class="article-sub-title" style="text-align: center;">Mentors</h2>
+        <div class="column2 col-12">
+          <p>
+            <span class="span-bold">Dr. Parveen Dhamija</span> is a renewable energy expert with over 35 years of
+            leadership in policy, technology deployment, and skill development. A PhD from IARI, she has served in key
+            roles at MNRE and Delhi Govt., driving national programs in biogas, clean cooking, solar energy, and
+            waste-to-energy. She has led initiatives for gender inclusion, skill building, and biomass supply chain
+            development. A former Lead Author for the IPCC and member of BIS and ISO committees, Dr. Dhamija continues
+            to contribute to India's clean energy transition through research, advisory, and capacity-building roles.
+          </p>
+        </div>
+      </section>
+
+      <h2 class="article-sub-title" style="text-align: center;">Mentors</h2>
       <div class="mentors-list d-flex justify-content-evenly">
         <section class="team-section col-4 hidden">
           <div class="column1">
@@ -442,7 +386,7 @@
         </section>
       </div>
 
-        <h2 class="article-sub-title">Patents</h2>
+      <h2 class="article-sub-title">Patents</h2>
       <section>
         <div class="container-fluid" style="padding-left: 2rem; padding-right: 2rem;">
 
@@ -453,17 +397,23 @@
                 <a class="cardp1" target="_blank"
                   href="/assets/patentCerts/1. India patent certificate for prod of anaerobic granules for waste water treatment_granted on 16th Mar 2021.jpg">
                   <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
-                    <img class="pat-flag" src="assets/patentCerts/india-flag.webp" style="width: 80px; margin-bottom: 0;">
+                    <img class="pat-flag" src="assets/patentCerts/india-flag.webp"
+                      style="width: 80px; margin-bottom: 0;">
                     <div style="margin: 0; font-size: 15px; font-weight: 600; line-height: 1.3;">
                       <div>India</div>
                       <div>Patent Certificate</div>
                     </div>
                   </div>
-                  <p class="small">Production Of Anaerobic Granules For Waste Water Treatment.</p>
-                  <p class="small">Granted on 16th Mar 2021.</p>
-                  <div class="go-corner" href="#">
+                  <div class="content">
+                    <p class="small">
+                      Production Of Anaerobic Granules For Waste Water Treatment.
+                    </p>
+                  </div>
+                   <div class="go-corner" href="#">
                     <div class="go-arrow">→</div>
                   </div>
+
+                  <p class="small date">Granted on 16th Mar 2021.</p>
                 </a>
               </div>
             </div>
@@ -472,7 +422,8 @@
                 <a class="cardp1" target="_blank"
                   href="/assets/patentCerts/6. India patent certificate for removal of heavy metals - granted on 7th Dec 2023.jpg">
                   <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
-                    <img class="pat-flag" src="assets/patentCerts/india-flag.webp" style="width: 80px; margin-bottom: 0;">
+                    <img class="pat-flag" src="assets/patentCerts/india-flag.webp"
+                      style="width: 80px; margin-bottom: 0;">
                     <div style="margin: 0; font-size: 15px; font-weight: 600; line-height: 1.3;">
                       <div>India</div>
                       <div>Patent Certificate</div>
@@ -488,17 +439,27 @@
             </div>
             <div class="col-4 hiddenv">
               <div class="cardp">
-                <a class="cardp1" target="_blank"
-                  href="/assets/patentCerts/Patent_Certificate_India.pdf">
+                <a class="cardp1" target="_blank" href="/assets/patentCerts/Patent_Certificate_India.pdf">
                   <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
-                    <img class="pat-flag" src="assets/patentCerts/india-flag.webp" style="width: 80px; margin-bottom: 0;">
+                    <img class="pat-flag" src="assets/patentCerts/india-flag.webp"
+                      style="width: 80px; margin-bottom: 0;">
                     <div style="margin: 0; font-size: 15px; font-weight: 600; line-height: 1.3;">
                       <div>India</div>
                       <div>Patent Certificate</div>
                     </div>
                   </div>
-                  <p class="small">An Integrated Approach To Recover Maximum Energy From Waste.</p>
-                  <p class="small">Granted on 22nd Dec 2025</p>
+                  <div class="content">
+                    <p class="small">
+                      An Integrated Approach To Recover Maximum Energy From Waste.
+                    </p>
+                  </div>
+
+                  <!-- Bottom -->
+                  <p class="small date">Granted on 22nd Dec 2025</p>
+
+                  <div class="go-corner">
+                    <div class="go-arrow">→</div>
+                  </div>
                   <div class="go-corner" href="#">
                     <div class="go-arrow">→</div>
                   </div>
@@ -514,7 +475,8 @@
                 <a class="cardp1" target="_blank"
                   href="assets/patentCerts/2. South Africa patent certificate_granted on 30th June 2021.jpg">
                   <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
-                    <img class="pat-flag" src="assets/patentCerts/south-africa-flag.webp" style="width: 80px; margin-bottom: 0;">
+                    <img class="pat-flag" src="assets/patentCerts/south-africa-flag.webp"
+                      style="width: 80px; margin-bottom: 0;">
                     <div style="margin: 0; font-size: 15px; font-weight: 600; line-height: 1.3;">
                       <div>South Africa</div>
                       <div>Patent Certificate</div>
@@ -552,7 +514,8 @@
                 <a class="cardp1" target="_blank"
                   href="assets/patentCerts/4. Malaysia patent certificate_granted on 19th Jan 2023.jpg">
                   <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
-                    <img class="pat-flag" src="assets/patentCerts/malasiya-flag.webp" style="width: 80px; margin-bottom: 0;">
+                    <img class="pat-flag" src="assets/patentCerts/malasiya-flag.webp"
+                      style="width: 80px; margin-bottom: 0;">
                     <div style="margin: 0; font-size: 15px; font-weight: 600; line-height: 1.3;">
                       <div>Malaysia</div>
                       <div>Patent Certificate</div>
@@ -568,10 +531,10 @@
             </div>
             <div class="col-3 hiddenv">
               <div class="cardp">
-                <a class="cardp1" target="_blank"
-                  href="/assets/patentCerts/5. European Patent Cert.pdf">
+                <a class="cardp1" target="_blank" href="/assets/patentCerts/5. European Patent Cert.pdf">
                   <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
-                    <img class="pat-flag" src="assets/patentCerts/europe-flag.webp" style="width: 80px; margin-bottom: 0; flex-shrink: 0;">
+                    <img class="pat-flag" src="assets/patentCerts/europe-flag.webp"
+                      style="width: 80px; margin-bottom: 0; flex-shrink: 0;">
                     <div style="margin: 0; font-size: 15px; font-weight: 600; line-height: 1.3;">
                       <div>Europe</div>
                       <div>Patent Certificate</div>
@@ -589,18 +552,19 @@
 
         </div>
       </section>
-      </article>
-    </main>
-    <footer class="p-3">
-      <br />
-      <hr style="color: #66bc46" />
-      <div class="footer-text">
-        Copyright © REVY Environmental Solutions Pvt. Ltd.
-        CINU74999GJ2017PTC098509. All rights reserved.
-      </div>
-    </footer>
-        <script src="./bootstrap.bundle.js"></script>
-    <script src="app.js"></script>
-    <script src="hid.js"></script>
-  </body>
+    </article>
+  </main>
+  <footer class="p-3">
+    <br />
+    <hr style="color: #66bc46" />
+    <div class="footer-text">
+      Copyright © REVY Environmental Solutions Pvt. Ltd.
+      CINU74999GJ2017PTC098509. All rights reserved.
+    </div>
+  </footer>
+  <script src="./bootstrap.bundle.js"></script>
+  <script src="app.js"></script>
+  <script src="hid.js"></script>
+</body>
+
 </html>
